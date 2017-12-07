@@ -16,4 +16,6 @@ In last remove cache
     sudo apt-get clean
     
     
+# Install last version of docker    
     
+    curl -sSL https://get.docker.com | sh
