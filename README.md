@@ -19,3 +19,8 @@ In last remove cache
 # Install last version of docker    
     
     curl -sSL https://get.docker.com | sh
+
+
+There is a bug you need to downgrade to an old version
+
+    sudo apt-get install -y docker-ce=17.09.0~ce-0~raspbian --allow-downgrades
